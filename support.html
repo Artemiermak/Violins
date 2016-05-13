@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Best violins in Toronto. Support</title>
+	<meta charset="utf-8" />
+	<meta name="author" Content="Artem Iermak" />
+	<meta name="copyright" Content="Artem Iermak" />
+	<link rel="stylesheet" href="CSS/style_index.css" />
+	<link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+</head>
+<body>
+	<header>
+		<!--===============================-audio button-->
+		<audio controls loop src="N.-Paganini-La-campanella.-rondo.mp3">Oops( Your broweser don't support this music file.</audio>
+		
+		<!--===============================Search button-->
+        <div class="Site_search">
+                <input type="search" placeholder="Search on the site" />
+                <input type="submit" value="Search" />	
+        </div>		
+		
+			<!--===============================Logo-->
+		<div class="logo">
+			<a href="index.html">
+				<img src="images/Logo1.png" alt="Toronto violins logo" />
+				<!--image credit: http://f-picture.net/lfp/s019.radikal.ru/i618/1209/73/d178aa091bc4.jpg/htm; 
+http://mosmetod.ru/files/metod/nachalnoe/metodicheskie_rekomendacii/pics/13.jpg-->
+			</a>
+		</div>
+		<h2 class="slogan">Best violins in Toronto since 1890</h2>
+		
+		<!--=====================NAVIGATION==================-->
+		<nav>
+			<ul>
+				<li><a href="index.html" title="Home page">Home</a></li>
+				<li><a href="products.html" title="Products">Products</a>
+					<ul>
+						<li><a href="products_Violin_for_Students.html" title="Violin for Students">Violin for Students</a></li>
+						<li><a href="products_Violin_for_Professionals.html" title="Violin for Professionals">Violin for Professionals</a></li>
+						<li><a href="products_Violin_for_collectioners.html" title="Violin for collectioners">Violin for collectioners</a></li>
+					</ul>
+				</li>
+				<li><a href="support.html" title="Support">Support</a></li>
+				<li><a href="about.html" title="About">About</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<!--=====================MAIN==================-->
+	
+	<main class="support">
+		<h2>Need help or answers?</h2>
+		<p>Please complite form above and we will help you asap.</p>
+		<!--============START FORM===================-->
+		
+		<form method="post" action="php/process-form.php" >
+			<fieldset>
+				<img src="images/SupportPersInfo.png" alt="Personal information" height="100" /> <!--image credit: http://www.picshare.ru/uploads/140322/6OZhP3ELp3.png-->
+				<ul class="Personal_information">
+					<li>
+						<label for="fname" >First name</label>
+						<input type="text" name="fname" id="fname" placeholder="first name" size="25" maxlength="50" required />
+					</li>
+					<li>
+						<label for="lname" >Last name</label>
+						<input type="text" name="lname" id="lname" placeholder="last name" size="25" maxlength="50" required />
+					</li>
+					<li>
+						<label for="phone">Phone number</label>
+						<input id="phone" type="tel" name="phone" placeholder="+1-(000)-000-0000" size="25" required />
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input id="email" type="email" name="email" size="25" placeholder="You can type more than 1 e-mail" multiple />
+					</li>
+					<li>
+						<label class="when" for="How_fast_you_need_answer?">How fast do you need the answer?</label><br>
+						<input type="checkbox" name="How_fast_you_need_answer?" id="How_fast_you_need_answer?" />Asap!<br>
+						<input type="checkbox" name="How_fast_you_need_answer?" />1 day<br>
+						<input type="checkbox" name="How_fast_you_need_answer?" />2 days<br>
+						<input type="checkbox" name="How_fast_you_need_answer?" />Do not hurry
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset>
+				<img src="images/SupportMessBox.png" alt="Message box" height="100" /><!--image credit: http://www.picshare.ru/uploads/140322/6OZhP3ELp3.png-->
+				<ul>
+					<li>
+						<label for="Message">Message:</label>
+						<textarea id="Message" name="Message" rows="10" cols="50"></textarea>
+					</li>
+					<li>
+						<label for="picture">Picture:</label>
+						<input type="file" id="picture" name="picture" />
+						<p class="instructions">Maximum size of 1Mb. JPG, GIF, PNG.</p>
+					</li>
+				</ul>
+			</fieldset>
+			<div class="SupportButtons">
+				<button type="reset">Clear form</button>
+				<button type="submit">Submit</button>
+			</div>
+		</form>
+	<!--============END FORM===================-->
+	</main>
+	
+	<!--=====================FOOTER==================-->
+	<footer> 
+			<!--======= working hours ======-->
+			<div class="WorkingHours"> 
+				<h3>Working hours:</h3>
+				<p>Monday:    closed</p>
+				<p>Tuesday-Friday:   10:00 - 20:00</p>
+				<p>Saturday:  10:00 - 18:00</p>
+				<p>Sunday:    10:00 - 17:00</p>
+			</div>
+			<div class="contacts"> 
+				<!--========== contacts ==============-->
+				<p><small>123 Yong str, Toronto, Ontario, Canada L3F3D4</small></p>
+				<p><small>Tel# +1 123 45 67   e-mail: contacts@violonstoronto.ca</small></p>
+				<p><small>Copyright © 2015. Artem Iermak.	</small></p>
+			</div>
+			<div class="SocialNetworks"> <!-- social networks -->
+				<a href="https://www.facebook.com/" title="Facebook">
+					<img src="images/facebook-logo-png-transparent-background.png" alt="Facebook logo" width="35" />
+				</a>
+				<a href="https://twitter.com" title="Twitter">
+					<img src="images/twitter-logo.png" alt="Twitter logo" width="35" />
+				</a>
+			<a href="https://mail.google.com" title="Gmail">
+					<img src="images/Gmail+Large.png" alt="Gmail logo" width="35" />
+				</a>
+				<a href="https://www.instagram.com/" title="Instagram">
+					<img src="images/Instagram-icon.png" alt="Instagram logo" width="35" />
+				</a>
+				<a href="https://www.whatsapp.com" title="WhatsApp">
+					<img src="images/Whatsapp.png" alt="WhatsApp logo" width="35" />
+				</a>
+				<a href="www.skype.com" title="Skype">
+					<img src="images/skype_logo_custom.png" alt="Skype logo" width="35"/>
+				</a>
+			</div>
+	</footer>
+
+</body>
+</html>

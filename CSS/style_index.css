@@ -1,0 +1,456 @@
+@import url(https://fonts.googleapis.com/css?family=Pinyon+Script);
+@import url(https://fonts.googleapis.com/css?family=Neuton);
+/*
+	backround color (inside): url(../images/OldLetterBackground2.png);
+	backround color (outside): url(../images/VictWalp.jpg);
+	border color: #1f1a17;
+	nav back color: #1f1a17;
+	slogan text shadow color: #5E2F05;
+	nav font hover color: aquamarine;
+	nav border hover color: beige;
+*/
+html {
+	background-image: url(../images/VictWalp.jpg);
+	font-family: 'Neuton', serif;
+	font-size: 100%;
+}
+
+main {
+	margin: 0 18% 0 18%;
+	background-image: url(../images/OldLetterBackground2.png);
+	width: 64%;
+	border-style: double;
+	clear: both;
+}
+/*===========HOME PAGE BANNER====================*/
+div.HPbanner img {
+	display: block;
+	width: 80%;
+	margin: 1% 9% 1% 9.5%;
+	border: solid thin #1f1a17;
+}
+
+div.HPdecor1 img {
+	display: block;
+	width: 40%;
+	margin: 1% 30% 1% 30%;
+}
+
+/*=============FOOTER===================*/
+footer {
+	margin: 1% 18% 0 18%;
+	padding: 0;
+	background-image: url(../images/OldLetterBackground2.png);
+	width: 64%;
+	height: auto;
+	border-style: double;
+	display: block;
+	font-family: Tahoma, sans-serif;
+	font-size: 80%;
+	line-height: 4px;
+	clear: both;
+}
+div.WorkingHours {
+	width: 28%;
+	display: inline-block;
+	margin: 0;
+	padding: 1%;
+	position: relative;
+	font-size: 80%;
+}
+
+div.contacts {	
+	width: 32%;
+	display: inline-block;
+	margin: 0;
+	padding: 1%;
+	position: relative;
+}
+div.SocialNetworks {
+	width: 32%;
+	display: inline-block;
+	margin: 0;
+	padding: 1%;
+	position: relative;
+	font-size: 60%;
+}
+
+footer div a img {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	border: solid 1px beige;
+	border-radius: 2px;
+}
+/*===============LOGO==================*/
+header div.logo {
+	border: double;
+	background-image: url(../images/OldLetterBackground2.png);
+	width: 64%;
+	height: 20%;
+	margin: 0 18% 0 18%;
+}
+header div a img {
+	width: 50%;
+	margin: 0 25% 0 25%;
+	padding-bottom: 5px;
+	padding-top: 5px;	
+}
+/*-----------------Audio button--------------------*/
+audio {
+	position: absolute;
+	display: block;
+	width: 15%;
+}
+
+
+/*-----------------Search button--------------------*/
+
+div.Site_search {
+	position: absolute;
+	display: block;
+	width: 17.5%;
+	clear: none;
+	border: solid thin #1f1a17;
+	border-radius: 3px;
+	background-image: none;
+	right: 0%;
+}
+
+/*-----------------Slogan----------------*/
+.slogan {
+	background-image: url(../images/OldLetterBackground2.png);
+	width: 64%;
+	height: 5%;
+	margin: 0% 18% 0 18%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-left: double;
+	border-right: double;
+	text-align: center;
+	font-size: 170%;
+	font-family: 'Pinyon Script', cursive;
+	text-shadow: 1px 1px 1px #5E2F05;
+}
+
+/* =============NAVIGATION==============*//*фон обоев #1f1a17*/
+nav {
+	display: block;
+	padding: 0;
+	width: 64%;
+	border: solid #1f1a17;
+	margin: 0 18% 0 18%;
+	background-color: #1f1a17;
+}
+
+nav ul {
+	list-style: none;
+	display: inline-block;
+	width: 50%;
+	margin: 0 25% 0 26%;
+}
+
+nav ul li {
+	float: left;
+	position: relative;
+	margin: 0;
+	background-color: #1f1a17;
+}
+
+nav ul li a {
+	display: block;
+	padding: 15px 15px;
+	color: #c0b973;
+	text-decoration: none;
+	font-size: 120%;
+}
+
+nav ul ul {
+	position: absolute;
+	top: 100%;
+	padding: 0;
+	margin-left: 0;
+}
+
+nav ul ul li {
+	float: none;
+	border-bottom: 1px solid beige;
+	width: 500%;
+	z-index: 1000;
+}
+nav ul ul li a {
+	padding: 15px 15px;
+	color: beige;
+}
+nav ul ul li:hover a{
+	color: aquamarine;
+	border: 1px solid beige;
+}
+/*---------hidden navigation-----------*/
+nav ul ul {
+	display: none;
+}
+
+li:hover ul {
+	display: block;
+	-webkit-transition: top 1s ease-out 1s;
+    -moz-transition: top 1s ease-out 1s;
+    -o-transition: top 1s ease-out 1s;
+     transition: top 1s ease-out 1s;
+}
+nav > ul > li:hover > a {
+	background-color: #1f1a17;
+	color: beige;	
+	text-decoration: underline;
+	-webkit-transition: top 1s ease-out 1s;
+    -moz-transition: top 1s ease-out 1s;
+    -o-transition: top 1s ease-out 1s;
+     transition: top 1s ease-out 1s;
+}
+
+
+/*========================ABOUT PAGE STYLE====================*/
+
+h2.HeaderINabout {
+	display: block;
+	width: 70%;
+	margin: 1% 15% 1% 15%;
+	text-align: center;
+	clear: both;
+}
+
+	/*==========Content style==============*/
+main.about img.AboutImg1 {
+	display: block;
+	width: 25%;
+	float: left;
+	margin: 1% 2% 1% 2%;
+}
+
+main.about img.AboutImg2 {
+	display: block;
+	width: 25%;
+	float: right;
+	margin: 1% 2% 1% 2%;
+}
+
+main.about div {
+	display: block;
+	width: 96%;
+	margin: 1% 2% 1% 2%;
+	text-align: justify;
+	text-indent: 1.5%;
+}	
+main.about div p:first-letter {
+	color: brown;
+	font-size: 150%;
+	font-family: 'Pinyon Script', cursive;
+	font-weight: bold;
+}
+
+/*========================Support PAGE STYLE====================*/
+
+/*----------------headings-----------------*/
+main.support h2 {
+	display: block;
+	margin-left: 15%;
+}
+
+main.support p {
+	display: block;
+	margin-left: 15%;
+}
+
+/*----------------fieldset and label style-----------------*/
+
+main.support fieldset {
+	border: double #1f1a17;
+	width: 68%;
+	margin: 1% 15% 1% 15%;
+	font-family: Arial sans-serif;
+	font-style: italic;
+}
+
+.instructions {
+	font-size: 80%;
+	font-style: normal;
+}
+
+ul.Personal_information li label {
+	display: inline-block;
+	padding: 2px;
+	text-align: right;
+	width: 20%;
+	vertical-align: top;
+}
+
+ul.Personal_information li label.when {
+	width: 41%;
+}
+
+main.support  label {
+	display: inline-block;
+	padding: 2px;
+	text-align: right;
+	width: 12%;
+	vertical-align:bottom;
+}
+
+/*-----------clear submit butons----------*/
+
+.SupportButtons {
+	display: block;
+	margin-left: 15%;
+	margin-bottom: 1%;
+}
+
+/*========================PRODUCTS PAGE STYLE====================*/
+
+/*--------header----------*/
+main.products h2 {
+	display: block;
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+
+/*------------First small image------------*/
+.OneOne {
+	opacity:1px;
+	display:inline-block;
+	border: solid thin #1f1a17;
+	position:absolute;
+	z-index:100;
+	transition-duration:0.96s;
+	-webkit-transition-duration:0.96s;
+	-moz-transition-duration:0.96s;
+	-o-transition-duration:0.96s;
+	-ms-transition-duration:0.96s;
+}
+
+.OneOne:hover {
+	opacity:0.00;
+}
+ 
+div.FirstImage {
+	display:inline-block;
+	background-position:center center;
+	background-repeat:no-repeat;
+	margin: 1% 2% 1% 7%;
+}
+
+/*------------Second small image------------*/
+.TwoOne {
+	opacity:1px;
+	display:inline-block;
+	border: solid thin #1f1a17;
+	position:absolute;
+	z-index:100;
+	transition-duration:0.96s;
+	-webkit-transition-duration:0.96s;
+	-moz-transition-duration:0.96s;
+	-o-transition-duration:0.96s;
+	-ms-transition-duration:0.96s;
+	}
+
+.TwoOne:hover {
+	opacity:0.00;
+}
+ 
+div.SecondImage {
+	display:inline-block;
+	background-position:center center;
+	background-repeat:no-repeat;
+	margin: 1% 2% 1% 2%;
+}
+
+/*------------Third small image------------*/
+.ThreeOne {
+	opacity:1px;
+	display:inline-block;
+	border: solid thin #1f1a17;
+	position:absolute;
+	z-index:100;
+	transition-duration:0.96s;
+	-webkit-transition-duration:0.96s;
+	-moz-transition-duration:0.96s;
+	-o-transition-duration:0.96s;
+	-ms-transition-duration:0.96s;
+}
+
+.ThreeOne:hover {
+	opacity:0.00;
+}
+ 
+div.ThirdImage {
+	display:inline-block;
+	background-position:center center;
+	background-repeat:no-repeat;
+	margin: 1% 2% 1% 2%;
+}
+/*========================END PRODUCTS PAGE====================*/
+
+/*========================PRODUCTS PAGE Violin_for_Students====================*/
+
+main.Violin_for_Students img {
+	display: block;
+	width: 45%;
+	float: left;
+	margin: 1% 2% 1% 0%;
+	border: solid thin #1f1a17;
+}
+
+main.Violin_for_Students figure {
+	font-size: 200%;
+}
+
+main.Violin_for_Students div {
+	display: block;
+	width: 95%;
+	margin: 1% 2% 1% 2%;
+	text-align: justify;
+	text-indent: 1.5%;
+}
+
+main.Violin_for_Students form {
+	border: solid thin #1f1a17;
+	width: 40.5%;
+	margin-left: 25%;
+	margin-bottom: 2%;
+	font-family: Arial sans-serif;
+	font-style: italic;
+	padding: 10px;
+}
+
+
+main.Violin_for_Students  label {
+	display: inline-block;
+	padding: 2px;
+	text-align: left;
+	width: 25%;
+	vertical-align:bottom;
+}
+
+/*========================PRODUCTS PAGE Violin_for_Professionls====================*/
+
+
+img.ViolinProfessional {
+	display: block;
+	width: 35%;
+	float: left;
+	margin: 1% 2% 1% 0%;
+	border: solid thin #1f1a17;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
